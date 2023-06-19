@@ -49,13 +49,14 @@ section .h21{
 }
 
 #size{
-    font-size: 35px;
+    font-size: 28px;
     font-family: 'Noto Serif Sinhala', serif;
     color: rgb(62, 150, 190) ;
     opacity: 0;
     animation: slideup 1s ease forwards;
     animation-delay: .8s;
     font-weight: 900;
+    text-shadow: 1px 1px 1px;
    
     
 }
