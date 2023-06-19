@@ -1,1 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
+section .h21{
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Lora', serif;
+    text-shadow: 3px 3px 3px;
+    border: 2px solid black;
+    align-items: center;
+    padding: auto;
+    border-radius: 20px;
+
+}
+
+.cobp{
+    font-family: 'Noto Serif Sinhala', serif;
+}
+
+.mar{
+    margin-top: 300px;
+    font-size: 20px;
+}
+
+.fontsize{
+    color: blue;
+}
+
+.bodycol{
+    background-color: #fff2d0;
+}
+
+.bodycol #text{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Noto Serif Sinhala', serif;
+    text-shadow: 2px 2px 2px;
+}
+
+.class{
+    margin-left: 30px;
+}
+
+.diva{
+    margin-top: 80px;
+    
+    border-color: 3px solid black;
+}
+
+#size{
+    font-size: 35px;
+    font-family: 'Noto Serif Sinhala', serif;
+    color: rgb(62, 150, 190) ;
+    opacity: 0;
+    animation: slideup 1s ease forwards;
+    animation-delay: .8s;
+    font-weight: 900;
+   
+    
+}
+
+#size span{
+    font-size: larger;
+    font-weight:bold;
+    color: rgb(230, 200, 117);
+    font-family: 'Noto Serif Sinhala', serif;
+    animation: slidebottom 1s ease forwards;
+    
+}
+.h2f{
+    font-family: 'Noto Serif Sinhala', serif;
+    font-weight: 600;
+    color:rgb(230, 200, 117);
+    text-shadow: 2px 2px 5px #b69c2b;
+    opacity: 0;
+    animation: fadein 1s ease forwards ;
+    animation-delay: .5s;
+    margin-bottom: 20px;
+
+}
+
+.container #imgr{
+    opacity: 0;
+    animation: zoomin 1s ease forwards;
+    animation-delay: .9s;
+}
+
+.circle {
+   
+    background-color: #343a40;
+}
+
+
+#sizex{
+    width: 200px;
+    height: 220px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+
+#ital{
+    font-style: italic;
+    font-weight: bold;
+}
+.page{
+    margin: 50px;
+}
+
+#bold{
+    font-weight: bold;
+}
+.ara1{
+    text-align: center;
+    margin-top: 25px;
+}
+.ara1 .ara2{
+    font-size: 23px;
+    font-family: 'Noto Serif Sinhala', serif;
+    background-color: #e9d57c;
+}
+#in-cl{
+    font-family: 'Noto Serif Sinhala', serif;
+    font-style:italic ;
+}
+#no-cl{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic ;
+}
+.footer{
+    padding: 10px 0;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid #c5c2c2;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+  
+.footer .social a:hover{
+    opacity: 0.9;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover{
+    opacity: 1;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+}
+
+@keyframes slideRigh {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideup {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes slidebottom {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0%{
+        transform: translateZ(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}
+
+@keyframes zoomin {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadein{
+    0%{
+        
+        opacity: 0;
+    }
+    100%{
+       
+        opacity: 1;
+    }
+}
